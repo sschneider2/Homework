@@ -1,0 +1,36 @@
+Last login: Sat Feb 25 13:56:21 on ttys000
+MacBook-Pro-4:~ saraschneider$ python
+Python 2.7.11 |Anaconda 2.3.0 (x86_64)| (default, Dec  6 2015, 18:57:58) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+Anaconda is brought to you by Continuum Analytics.
+Please check out: http://continuum.io/thanks and https://anaconda.org
+>>> import random
+>>> pronouns = ["Sara", "Bill", "Frank", "Amy", "Mike", "Jeff"]
+>>> adjs = ["happy", "sad", "excited", "snazzy", "embarrassed", "blue"]
+>>> verbs = ["runs", "smiles", "cries", "jumps", "apologizes", "laughs"]
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Mike', 'is', 'blue', 'then', 'Mike', 'laughs')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Bill', 'is', 'happy', 'then', 'Mike', 'runs')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Frank', 'is', 'excited', 'then', 'Mike', 'runs')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Bill', 'is', 'excited', 'then', 'Sara', 'smiles')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Amy', 'is', 'embarrassed', 'then', 'Mike', 'runs')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Jeff', 'is', 'happy', 'then', 'Mike', 'laughs')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Sara', 'is', 'sad', 'then', 'Frank', 'apologizes')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Frank', 'is', 'embarrassed', 'then', 'Bill', 'runs')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Jeff', 'is', 'happy', 'then', 'Sara', 'apologizes')
+>>> print("If", random.choice(pronouns), "is", random.choice(adjs), "then", random.choice(pronouns), random.choice(verbs))
+('If', 'Frank', 'is', 'snazzy', 'then', 'Sara', 'laughs')
+>>> 
+
+
+My formal grammar that I made was "If pronoun is adjective then pronoun verb." I think it worked out pretty well!
+
